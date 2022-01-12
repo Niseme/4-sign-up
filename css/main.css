@@ -26,6 +26,7 @@ body {
 }
 .main-title {
   display: inline-block;
+  color: #fff;
   width: 100%;
   font-size: 32px;
   font-weight: normal;
@@ -39,6 +40,8 @@ body {
   font-size: 14px;
 }
 .bottom-links > .symbol {
+  color: #fff;
+  font-size: 14px;
 }
 
 .right-clmn {
@@ -47,4 +50,9 @@ body {
   padding: 60px;
   float: right;
   background-color: #fff;
+}
+
+.close {
+  display: inline-block;
+  background-color: red;
 }
