@@ -24,6 +24,23 @@ body {
   padding: 40px;
   background-color: rgb(99, 117, 197);
 }
+.main-title {
+  display: inline-block;
+  width: 100%;
+  font-size: 32px;
+  font-weight: normal;
+}
+.bottom-links {
+  display: inline-block;
+  width: 100%;
+}
+.bottom-links > .link {
+  color: #fff;
+  font-size: 14px;
+}
+.bottom-links > .symbol {
+}
+
 .right-clmn {
   display: inline-block;
   width: 60%;
