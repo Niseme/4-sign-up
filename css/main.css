@@ -19,14 +19,18 @@ body {
 }
 .left-clmn {
   display: inline-block;
+  color: #fff;
   width: 40%;
   float: left;
   padding: 40px;
   background-color: rgb(99, 117, 197);
+  background-image: url(../img/hill.png);
+  background-position: center;
+  background-size: cover;
 }
 .main-title {
   display: inline-block;
-  color: #fff;
+
   width: 100%;
   font-size: 32px;
   font-weight: normal;
@@ -36,11 +40,11 @@ body {
   width: 100%;
 }
 .bottom-links > .link {
-  color: #fff;
   font-size: 14px;
+  text-decoration: none;
+  color: #fff;
 }
 .bottom-links > .symbol {
-  color: #fff;
   font-size: 14px;
 }
 
