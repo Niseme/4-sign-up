@@ -16,9 +16,13 @@ body {
   width: 800px;
   margin-top: 160px;
   margin-left: calc(50% - 400px);
+  position: relative;
 }
 .left-clmn {
   display: inline-block;
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
   color: #fff;
   width: 40%;
   float: left;
@@ -37,7 +41,11 @@ body {
 }
 .bottom-links {
   display: inline-block;
-  width: 100%;
+  position: absolute;
+  background-color: red;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
 }
 .bottom-links > .link {
   font-size: 14px;
@@ -59,7 +67,7 @@ body {
 
 .close {
   display: inline-block;
-  background-color: red;
+  color: #777;
   width: 60px;
   height: 60px;
   font-size: 35px;
