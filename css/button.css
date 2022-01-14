@@ -1,6 +1,13 @@
+/* https://cssgradient.io */
+
 .btn {
   display: inline-block;
-  background-color: rgb(68, 122, 184);
+  background: rgb(35, 74, 213);
+  background: linear-gradient(
+    90deg,
+    rgba(35, 74, 213, 1) 0%,
+    rgba(6, 97, 173, 1) 100%
+  );
   padding: 15px;
   padding-left: 50px;
   padding-right: 50px;
@@ -13,5 +20,10 @@
 }
 
 .btn:hover {
-  background-color: #146be6;
+  background: rgb(213, 35, 65);
+  background: linear-gradient(
+    90deg,
+    rgb(180, 19, 46) 0%,
+    rgba(213, 35, 65, 1) 100%
+  );
 }
